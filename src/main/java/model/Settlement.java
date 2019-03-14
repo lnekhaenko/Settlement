@@ -6,6 +6,15 @@ public abstract class Settlement {
     private String name;
     private Double middleAge;
     private Double health; //Пока планирую от 1 до 10
+    private Resources resources = new Resources();
+
+    public Resources getResources() {
+        return resources;
+    }
+
+    public void setResources(Resources resources) {
+        this.resources = resources;
+    }
 
     public Double getMiddleAge() {
         return middleAge;
