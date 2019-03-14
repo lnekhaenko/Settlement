@@ -7,6 +7,8 @@ public class Hamlet extends Settlement {
         return "Hamlet{" +
                 "population=" + getPopulation() +
                 ", name='" + getName() + '\'' +
+                "middleAge=" + getMiddleAge() +
+                ", health='" + getHealth() + '\'' +
                 '}';
     }
 }
